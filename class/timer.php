@@ -84,4 +84,4 @@ class timer
 		return  $this->udate($format, ($this->endTimer-$this->startTimer)/$avg_count);
 	}
 }
-?>
+

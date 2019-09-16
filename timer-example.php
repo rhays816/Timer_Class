@@ -1,6 +1,6 @@
 <?php
 // == TIMER CLASS ====================================
-	require_once 'classes/timer.php';
+	require_once 'class/timer.php';
 // -- Init Class
 	$timer = new timer();
 //
@@ -15,4 +15,6 @@
 	echo $timer->format_time() . '<br />';
 	echo $timer->avg_time(5) . '<br />';
 	echo $timer->format_avg_time(5);
-	// ===================================================
+// ===================================================
+
+	$timer = null;
